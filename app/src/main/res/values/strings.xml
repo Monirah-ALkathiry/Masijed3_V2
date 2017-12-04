@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Masijed</string>
+    <string name="Text_name_Tag">اسم المسجد : </string>
+    <string name="Text_name"> لايوجد</string>
+    <string name="Bu1">عام</string>
+    <string name="Bu2">الصور</string>
+    <string name="Bu3">الملاحظات</string>
+    <string name="Masijed_img">صورة المسجد</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

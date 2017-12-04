@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.monirah.masijed.Masijed_Information_Activity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            app:srcCompat="@android:drawable/btn_star" />
+
+        <TextView
+            android:id="@+id/MasijedNameTag"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:padding="2pt"
+            android:text="@string/Text_name_Tag"
+             android:typeface="sans"
+            tools:layout_margin="2dp" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/MasijedName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/Text_name"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:onClick="ViewMasijedInfo"
+            android:padding="15dp"
+            android:text="@string/Bu1" />
+
+    </GridLayout>
+
+    <fragment
+        android:id="@+id/GeneralInformation"
+        android:name="com.example.monirah.masijed.Masijed_Information"
+        android:layout_width="match_parent"
+        android:layout_height="115dp" />
+
+    <!--
+
+ <Button
+                android:id="@+id/button1"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:onClick="ViewMasijedNote"
+                android:padding="15dp"
+                android:text="@string/Bu3" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:onClick="ViewMasijedImg"
+                android:padding="15dp"
+                android:text="@string/Bu2" />
+
+    <fragment
+        android:id="@+id/Img"
+        android:name="com.example.monirah.masijed.Fragment_Masijed_Imag"
+        android:layout_width="match_parent"
+        android:layout_height="115dp" />
+            <ListView
+                android:id="@+id/Information"
+                android:layout_width="wrap_content"
+                android:layout_height="210dp">
+
+
+            </ListView>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView2"
+                android:layout_width="match_parent"
+                android:layout_height="190dp" />
+
+        -->
+</LinearLayout>
